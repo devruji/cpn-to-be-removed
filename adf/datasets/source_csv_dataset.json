@@ -1,0 +1,19 @@
+{
+  "name": "SourceCsvDataset",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "AzureBlobStorage",
+      "type": "LinkedServiceReference"
+    },
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobStorageLocation",
+        "folderPath": "input/csv"
+      },
+      "columnDelimiter": ",",
+      "quoteChar": "\"",
+      "escapeChar": "\\"
+    }
+  }
+}
