@@ -1,0 +1,9 @@
+{
+	"name": "bossruji-adf-prod",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e8ee9ea1-d62f-4d21-8bd6-9728135bacda",
+		"tenantId": "6077c940-46df-439b-b15b-2c3a1ef448b5"
+	}
+}
