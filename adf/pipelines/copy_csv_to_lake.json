@@ -1,0 +1,31 @@
+{
+  "name": "CopyCsvToLake",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyActivity",
+        "type": "Copy",
+        "inputs": [
+          {
+            "referenceName": "SourceCsvDataset",
+            "type": "DatasetReference"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "SinkParquetDataset",
+            "type": "DatasetReference"
+          }
+        ],
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource"
+          },
+          "sink": {
+            "type": "ParquetSink"
+          }
+        }
+      }
+    ]
+  }
+}

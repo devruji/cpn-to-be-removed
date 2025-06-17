@@ -1,0 +1,16 @@
+{
+  "name": "SinkParquetDataset",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "AzureDataLake",
+      "type": "LinkedServiceReference"
+    },
+    "type": "Parquet",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobStorageLocation",
+        "folderPath": "output/parquet"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "bossruji-adf",
+	"properties": {
+		"globalParameters": {
+			"boss": {
+				"type": "string",
+				"value": "ruji"
+			}
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c5bb1f7d-29d8-43bb-8a74-d21a3d7b2dfa",
+		"tenantId": "6077c940-46df-439b-b15b-2c3a1ef448b5"
+	}
+}
